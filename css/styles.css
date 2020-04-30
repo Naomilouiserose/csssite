@@ -1,0 +1,170 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 100px;
+  padding: 25px;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #40514E;
+}
+
+strong {
+  font-weight: bold;
+}
+
+hr {
+  border: dotted #dbdbdb 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-size: 3.5rem;
+  font-family: 'Nothing You Could Do', cursive;
+  color: #678a74;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #678a74;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #550a46;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #550a46;
+}
+
+.top-container {
+  background-color: #ffeadb;
+  position: relative;
+  padding: 100px;
+}
+
+.Intro {
+  width: 50%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.skill-row1 {
+  width: 70%;
+  margin: 50px auto 100px auto;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.skill-row2 {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+
+.flower1 {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  width: 30%;
+}
+
+.flower2 {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  width: 30%;
+}
+
+.web-design-header {
+  clear: left;
+  margin-right: 100px;
+}
+
+.photography-header {
+  clear: right;
+  margin-left: 100px;
+  padding-left: 100px;
+}
+
+.contact-me {
+  margin: auto;
+  padding: 0;
+}
+
+.contact-message {
+  width: 37%;
+  margin: 40px auto 50px;
+}
+
+
+.bottom-container {
+  background-color: #ffeadb;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.footer-link {
+  color: #678a74;
+}
+
+#website {
+  margin-right: 10px;
+}
+
+.copyright {
+  color: #40514E;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.my-button {
+  box-shadow: 0 1px 0 0 #1c1b18;
+background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+background-color:#eae0c2;
+border-radius:17px;
+border:1px solid #333029;
+display:inline-block;
+cursor:pointer;
+color:#505739;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+padding:15px 10px;
+text-decoration:none;
+}
+.my-button:hover {
+background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+background-color:#ccc2a6;
+}
+.my-button:active {
+position:relative;
+top:1px;
+}
